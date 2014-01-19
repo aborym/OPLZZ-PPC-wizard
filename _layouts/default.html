@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+{% include head.html %}
+</head>
+
+    <body>
+
+      <div id="header_wrap" class="outer">
+    
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/OPLZZ" target="_blank">View on GitHub</a>
+          
+          <h1 id="project_title">
+            <img src='{{ site.url }}/conference_assets/img/dame_praci_shadow.png' class='logo'>{% if page.title %}{{ page.title }}{% endif %}{{ site.title }}</h1>
+              <a class="extra" href="/">home</a>
+        </header>
+      </div>
+      
+      <div id="main_content_wrap" class="outer">
+        <section id="main_content" class="inner">
+                {{ content }}
+
+        </section>
+      </div> 
+
+{% include scripts.html %}          
+
+    </body>
+</html>

@@ -1,0 +1,110 @@
+
+@media (min-width: 1200px) {
+  .row {
+    margin-left: 0px;
+  }
+  .span3 {
+    width: 270px;
+  }
+}
+
+@media (min-width: 860px) and (max-width: 979px) {
+  .span3 {
+    width: 270px;
+  }
+}
+
+@media (max-width: 894px) {
+  .container {
+    width:auto;
+    margin-left:20px;
+    margin-right:20px;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .logo {
+    width:100px;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  .speaker .span03 {
+    width:160px;
+    float:left;
+    margin-left: 0px;
+  }
+
+  #contact .span03 {
+    width:160px;
+    float:left;
+    margin-left: 0px;
+  }
+
+}
+
+@media (max-width: 808px) {
+  .program .anotation .span3{
+    width:98%;
+    clear:both;
+    margin-left:0px;
+    margin-bottom: 10px;
+  }
+
+}
+
+
+@media (max-width: 560px) {
+  .program > li {
+    background: url('../img/program.png') repeat-y -50px 0px;
+  }
+  .program .time {
+    float:none;
+  }
+  .program .name, .program .speaker, .program .description, .program .anotation {
+    margin-left:30px;
+  }
+  .map_frame {
+    width:100%;
+    height: 200px;
+    border-radius: 0px;
+    border:none;
+  }
+
+  .footer img {
+    min-width:100%;
+    width:90%;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .speaker .span03 {
+    float:none;
+    width:100%;
+  }
+  .speaker .span03 .speaker_image {
+    margin-left:0px;
+  }
+  .speaker .contacts {
+    text-align: left;
+  }
+  .speaker .description{
+    margin-left:0px;
+  }
+
+  .logo {
+    width:100%;
+  }
+  .jumbotron {
+    padding-top:0px;
+  }
+
+}

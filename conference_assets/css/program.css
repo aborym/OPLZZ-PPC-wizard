@@ -1,0 +1,110 @@
+
+
+.program {
+}
+
+.program, .program ul {
+  margin-left:0px;
+  padding-left: 0px;
+}
+.program > li {
+  padding-bottom: 20px;
+  background: url('../img/program.png') repeat-y;
+  clear:both;
+
+}
+
+.program > li:last-child {
+  padding-bottom: 20px;
+  background: none;
+}
+
+.program li {
+  list-style: none;
+  margin-left:0px;
+  padding-left: 0px;
+}
+
+.program .time {
+  border:2px dotted #aaa;
+  background:#444;
+  padding:4px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  color: #ddd;
+  font-size: 120%;
+  display: inline-block;
+  text-align:center;
+  padding-top:8px;
+  width:130px;
+  float:left;
+  margin-bottom: 0px;
+}
+
+.program .name {
+  font-weight: bold;
+  color: #eee;
+  font-size: 22px;
+  display: block;
+  margin-left:150px;
+  padding-top:7px;
+  line-height: 1.1em;
+  max-width: 70%;
+}
+
+.program .name.not_inportant {
+  color: #aaa;
+}
+
+.program .time .place {
+  color: #aaa;
+}
+
+.program .speaker {
+  font-size: 22px;
+  margin-left:150px;
+  margin-bottom: 8px;
+  margin-top: 0px;
+  padding-top:0px;
+  display: block;
+  color:#0088cc;
+}
+
+.program .speaker a {
+  font-size: 22px;
+}
+.program .speaker a:hover {
+  font-size: 22px;
+  color:#aaf;
+}
+
+
+.program .description {
+  color: #ccc;
+  font-size: 110%;
+  display: block;
+  margin-left: 153px;
+  padding-bottom: 10px;
+}
+
+.program .anotation {
+  color: #777;
+  font-size: 16px;
+  display: block;
+  margin-left: 153px;
+  padding-bottom: 10px;
+}
+
+.program .anotation b {
+  color: #aaa;
+}
+
+.program .register {
+  margin-left: 153px;
+  padding-bottom: 10px;
+}
+
+.program .anotation .span3:first-child, .program .preriquisities .span3:first-child, .program .register .span3:first-child {
+  margin-left:0px;
+}
