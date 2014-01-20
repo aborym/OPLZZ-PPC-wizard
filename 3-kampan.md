@@ -1,10 +1,9 @@
 ---
 layout: page
-permalink: /1-validace/
-title: "Kontrola RDFa značení vašeho webu"
+permalink: /3-kampan/
+title: "Nastavení kampaně na aktivním účtu (1)"
 modified: 2013-01-20
 ---
-## Kontrola RDFa značení vašeho webu
 
 Abyste mohli používat AdWords Wizard, musíte na svém webu používat sémanticky strukturovaný zápis RDFa. To si můžete zkontrolovat pomocí validátoru.
 
@@ -19,4 +18,4 @@ Do validátoru vložte jednu z následujích variant URL:
 
 <div markdown="0"><a href="{{ site.url }}/2-ucty/" class="btn">Mám validní RDFa na stránce.</a></div>		
 
-<div markdown="0"><a href="http://damepraci.eu/validator" class="btn" target="_blank">Jak označím své stránky pomocí RDFa?</a></div>
+<div markdown="0"><a href="http://damepraci.eu/validator" class="btn">Jak označím své stránky pomocí RDFa?</a></div>
