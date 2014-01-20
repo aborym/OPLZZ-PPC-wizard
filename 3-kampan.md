@@ -3,18 +3,13 @@ layout: page
 permalink: /3-kampan/
 title: "Nastavení kampaně na aktivním účtu (1)"
 modified: 2013-01-20
+
 ---
 
-Abyste mohli používat AdWords Wizard, musíte na svém webu používat sémanticky strukturovaný zápis RDFa. To si můžete zkontrolovat pomocí validátoru.
+Pokud máte připravený účet je určitě lepší založit si novou kampaň:
 
-
-[Validátor RDFa](http://damepraci.eu/validator)
-
-
-Do validátoru vložte jednu z následujích variant URL:
-* Rozcestník na pracovní pozice (na většině webů www.domena.cz/kariera nebo www.domena.cz/volne_pozice)
-* URL konkrétní pracovní nabídky
-
+![Založení kampaně]({{ site.url }}/images/screenshoty/3-kampan.png)
+{: .pull-right}
 
 <div markdown="0"><a href="{{ site.url }}/2-ucty/" class="btn">Mám validní RDFa na stránce.</a></div>		
 
