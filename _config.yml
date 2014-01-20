@@ -1,6 +1,6 @@
 name: OPLZZ AdWords Wizard
 markdown: redcarpet
 pygments: true
-timezone:    Europe/Prague
+timezone: Europe/Prague
 
-url:              http://aborym.github.io/OPLZZ-PPC-wizard/
+url:	http://aborym.github.io/OPLZZ-PPC-wizard
